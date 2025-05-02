@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 
 #define TAM 4
 
@@ -13,6 +14,8 @@ int main()
     resultado = funcionvector( vector, 0, 0, 0, 0, 0, 0, 0, 0, 0 );
 
     printf( "El numero de parejas que cumplen la condicion es: %d.\n", resultado );
+
+    system( "pause" );
 }
 
 ///Cabecera: int v[], int j, int k, int parejas, int suma1, int suma2, int cont, int contj, int contk, int nueva_k

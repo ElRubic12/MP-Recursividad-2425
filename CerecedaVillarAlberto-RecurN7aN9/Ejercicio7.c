@@ -54,8 +54,10 @@ int main()
 }
 
 ///Cabecera: int m[M][N], int x, int y, int i, int j, int cont, int filas, int colum
-///Precondicion: Recibe una matriz desordenada, las posiciones x e y elegidas, 2 iteradores i y j, un contador para contar las veces que recorre las filas y columnas, el numero de elementos de filas y columnas
-///Postcondicion: Devuelve el numero de elementos que son menores que los elementos de la fila y el numero de elementos que son mayores que los elementos de la columna del numero elegido
+///Precondicion: Recibe una matriz desordenada, las posiciones x e y elegidas, 2 iteradores i y j, un contador para contar
+///              las veces que recorre las filas y columnas, el numero de elementos de filas y columnas
+///Postcondicion: Devuelve el numero de elementos que son menores que los elementos de la fila y el numero de elementos que 
+///              son mayores que los elementos de la columna del numero elegido
 
 void funcionmatriz( int m[M][N], int x, int y, int i, int j, int cont, int filas, int colum )
 {

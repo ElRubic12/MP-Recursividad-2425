@@ -52,6 +52,8 @@ int main()
 
     funcionmatriz( matriz, x, y, 0 , 0, 0, 0, 0 );
 
+    system( "pause" );
+
 }
 
 ///Cabecera: int m[M][N], int x, int y, int i, int j, int cont, int filas, int colum

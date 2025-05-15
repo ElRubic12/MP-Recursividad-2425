@@ -18,7 +18,7 @@ int main()
     system( "pause" );
 }
 
-///Cabecera: int v[], int j, int k, int parejas, int suma1, int suma2, int cont, int contj, int contk, int nueva_k
+///Cabecera: int funcionvector( int v[], int j, int k, int parejas, int suma1, int suma2, int cont, int contj, int contk, int nueva_k )
 ///Precondicion: Se recibe un vector, las parejas(j y k), el contador de las parejas que cumplen la condicion, las sumas de ambas condiciones(desde 0 hasta j y desde k 
 ///              hasta TAM), el contador general del programa(finaliza cuando se hayan operado sobre todas las parejas posibles), los contadores para ir recorriendo y
 ///              sumando los valores tanto desde 0 hasta j como desde k hasta TAM, y una variable para aumentar el valor de una de las parejas(k)

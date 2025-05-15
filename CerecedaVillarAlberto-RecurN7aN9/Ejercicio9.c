@@ -49,7 +49,7 @@ int main()
 
 }
 
-///Cabecera: int **m, int n, int first, int rep, int i, int j, int cont, int contsim
+///Cabecera: int funcionmatrizsimetrica( int **m, int n, int rep, int i, int j, int cont, int contsim )
 ///Precondicion: Se le pasa la matriz con la primera posicion inicializada, la dimension de la matriz, el numero maximo de veces que se va a llamar a la funcion,
 ///              el iterador i para las filas, el iterador j para las columnas, el numero de veces que se ha llamado a la funcion y una variable contador para
 ///              conmutar los valores de abajo de la diagonal por los valores de la derecha de la diagonal de la posicion actual de la diagonal
